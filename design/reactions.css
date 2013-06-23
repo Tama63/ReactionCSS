@@ -87,6 +87,9 @@
 	.ReactionClass .React.lol:before, x:-moz-any-link, x:default { 
 		padding: 1.1px 3.3px; 
 	}
+	.ReactionClass .React.scholarly:before {
+		padding: 0 1.25px;
+	}
 }
 /* Demo Only */
 .Comment .ReactionClass {
