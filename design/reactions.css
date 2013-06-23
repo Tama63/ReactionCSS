@@ -66,7 +66,8 @@
 }
 .ReactionClass .React.artistic:before {
 	content: "\f030";
-	padding: 0px 1px;
+	padding: 0.76px 0.75px;
+	font-size: 18px;
 }
 .ReactionClass .React.artistic:hover:before {
 	background: #0FF;
