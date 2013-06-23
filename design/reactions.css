@@ -64,3 +64,10 @@
 .ReactionClass .React.scholarly:hover:before {
 	background: #0F0;
 }
+/* Demo Only */
+.Comment .ReactionClass {
+    visibility: hidden;
+}
+.Comment:hover .ReactionClass {
+    visibility: visible;
+}
