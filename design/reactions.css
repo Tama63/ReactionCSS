@@ -37,6 +37,10 @@
 	-webkit-transition: background 0.5s;
 	vertical-align: top;
 }
+.ReactionClass .React:hover:before,
+.ReactionClass .React:hover {
+	cursor:pointer;
+}
 
 /* The 3 Reaction styles */
 .ReactionClass .React.lol:before {
