@@ -72,6 +72,22 @@
 .ReactionClass .React.artistic:hover:before {
 	background: #0FF;
 }
+/* Browser hacks */
+@-moz-document url-prefix() {
+	 
+	.ReactionClass .React.lol:before, x:-moz-any-link, x:default { 
+		padding: 1.1px 3.3px; 
+		}
+	.ReactionClass .React.scholarly:before, x:-moz-any-link, x:default { 
+		padding: 0 1.25px; 
+		}
+	
+}
+@media screen and (min-width:0\0) { 
+	.ReactionClass .React.lol:before, x:-moz-any-link, x:default { 
+		padding: 1.1px 3.3px; 
+	}
+}
 /* Demo Only */
 .Comment .ReactionClass {
     visibility: hidden;
