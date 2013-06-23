@@ -56,6 +56,7 @@
 }
 .ReactionClass .React.scholarly:before {
 	content: "\f06e";
+	padding: 0px 1px;
 }
 .ReactionClass .React.scholarly:hover:before {
 	background: #0F0;
