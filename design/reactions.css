@@ -5,11 +5,11 @@
  *  Reactions CSS 
 */
 @font-face {
-  font-family: 'FontAwesome';
-  src: url('font/fontawesome-webfont.eot?v=3.2.1');
-  src: url('font/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url('font/fontawesome-webfont.woff?v=3.2.1') format('woff'), url('font/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url('font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'FontAwesome';
+	src: url('font/fontawesome-webfont.eot?v=3.2.1');
+	src: url('font/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url('font/fontawesome-webfont.woff?v=3.2.1') format('woff'), url('font/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url('font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 /* Reactions */
@@ -18,30 +18,32 @@
 	font-size: 80%;
 	margin-right: 5px;
 }
-
 .ReactionClass .React:before { /* Set up base class to work with, reactions could get messy */
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 20px;
-  text-decoration: inherit;
-  -webkit-font-smoothing: antialiased;
-  height: 32px;
-  width: 32px;
-  border: 2px solid #000;
-  border-radius: 20px;
-  margin: 0px 2px;
-  font-smooth: always;
-  background: #CCC;
-  transition: background 0.5s;
-  -webkit-transition: background 0.5s;
-  vertical-align: top;
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	height: 32px;
+	width: 32px;
+	border: 2px solid #000;
+	border-radius: 20px;
+	margin: 0px 2px;
+	font-smooth: always;
+	background: #CCC;
+	transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	vertical-align: top;
+}
+.ReactionClass .React:hover:before,
+.ReactionClass .React:hover {
+	cursor:pointer;
 }
 
 /* The 3 Reaction styles */
 .ReactionClass .React.lol:before {
 	content: "\f118";
-
 	padding: 0px 2px;
 }
 .ReactionClass .React.lol:hover:before {
