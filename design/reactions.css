@@ -45,13 +45,14 @@
 /* The 3 Reaction styles */
 .ReactionClass .React.lol:before {
 	content: "\f118";
-	padding: 0px 2px;
+	padding: 0px 2.5px;
 }
 .ReactionClass .React.lol:hover:before {
 	background: #FF0;
 }
 .ReactionClass .React.wow:before {
 	content: "\f004";
+	padding: 0px 1px;
 }
 .ReactionClass .React.wow:hover:before {
 	background: #F0F;
