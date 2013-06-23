@@ -2,7 +2,7 @@
  *  Powered by Font Awesome 3.2.1 ( http://twitter.com/fontawesome. )
  *  the iconic font designed for Bootstrap ported for Reactions by Chris ireland
  *  ------------------------------------------------------------------------------
- *  Reactions CSS 
+ *  Reactions CSS for 2.1b
 */
 @font-face {
 	font-family: 'FontAwesome';
@@ -14,6 +14,7 @@
 
 /* Reactions */
 .ReactionClass .React {
+	font-family:Arial, Helvetica, sans-serif; /* Temp for Demo */
 	font-size: 80%;
 	margin-right: 5px;
 }
@@ -43,20 +44,20 @@
 /* The 3 Reaction styles */
 .ReactionClass .React.lol:before {
 	content: "\f118";
-	padding: 0px 2px;
+	padding: 0px 2.5px;
 }
 .ReactionClass .React.lol:hover:before {
 	background: #FF0;
 }
 .ReactionClass .React.wow:before {
 	content: "\f004";
+	padding: 0px 1px;
 }
 .ReactionClass .React.wow:hover:before {
 	background: #F0F;
 }
 .ReactionClass .React.scholarly:before {
 	content: "\f06e";
-	padding: 0px 1px;
 }
 .ReactionClass .React.scholarly:hover:before {
 	background: #0F0;
