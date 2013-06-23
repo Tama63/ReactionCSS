@@ -64,6 +64,13 @@
 .ReactionClass .React.scholarly:hover:before {
 	background: #0F0;
 }
+.ReactionClass .React.artistic:before {
+	content: "\f030";
+	padding: 0px 1px;
+}
+.ReactionClass .React.artistic:hover:before {
+	background: #0FF;
+}
 /* Demo Only */
 .Comment .ReactionClass {
     visibility: hidden;
