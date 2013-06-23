@@ -41,7 +41,6 @@
 /* The 3 Reaction styles */
 .ReactionClass .React.lol:before {
 	content: "\f118";
-
 	padding: 0px 2px;
 }
 .ReactionClass .React.lol:hover:before {
