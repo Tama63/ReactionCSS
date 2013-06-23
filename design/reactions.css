@@ -1,0 +1,63 @@
+/*!
+ *  Powered by Font Awesome 3.2.1
+ *  the iconic font designed for Bootstrap
+ *  ------------------------------------------------------------------------------
+ *  The full suite of pictographic icons, examples, and documentation can be
+ *  found at http://fontawesome.io.  Stay up to date on Twitter at
+ *  http://twitter.com/fontawesome.
+*/
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('font/fontawesome-webfont.eot?v=3.2.1');
+  src: url('font/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url('font/fontawesome-webfont.woff?v=3.2.1') format('woff'), url('font/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url('font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Reactions */
+.ReactionClass .React {
+	font-family:Arial, Helvetica, sans-serif; /* Temp for Demo */
+	font-size: 80%;
+	margin-right: 5px;
+}
+
+.ReactionClass .React:before { /* Set up base class to work with, reactions could get messy */
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  height: 32px;
+  width: 32px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  margin: 0px 2px;
+  font-smooth: always;
+  background: #CCC;
+  transition: background 0.5s;
+  -webkit-transition: background 0.5s;
+  vertical-align: top;
+}
+
+/* The 3 Reaction styles */
+.ReactionClass .React.lol:before {
+	content: "\f118";
+
+	padding: 0px 2px;
+}
+.ReactionClass .React.lol:hover:before {
+	background: #FF0;
+}
+.ReactionClass .React.wow:before {
+	content: "\f004";
+}
+.ReactionClass .React.wow:hover:before {
+	background: #F0F;
+}
+.ReactionClass .React.scholarly:before {
+	content: "\f06e";
+}
+.ReactionClass .React.scholarly:hover:before {
+	background: #0F0;
+}
